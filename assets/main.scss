@@ -1,0 +1,67 @@
+---
+---
+
+// Header css
+
+$header-size: 40px;
+
+.wrapper {
+    position: relative;
+}
+
+.site-logo {
+    position: absolute;
+    width: $header-size;
+    left: 18px -$header-size;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border-radius: 6px;
+}
+
+// Post list css
+
+.post-list {
+    .post-thumbnail {
+        float: right;
+
+        width: 144px;
+        height: 81px;
+    }
+}
+
+// Gallery css
+
+.gallery-container {
+    overflow: hidden;
+    text-align: center;
+}
+
+.gallery-image {
+    display: inline-block;
+    object-fit: cover;
+    float: left;
+    margin: 4px;
+
+    visibility: hidden;
+}
+
+.gallery-expand {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    z-index: 10;
+    background-image: radial-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .6));
+
+    .gallery-expand-target {
+        width: 100%;
+        height: 100%;
+        object-fit: scale-down;
+    }
+}
+
+@import "minima";
