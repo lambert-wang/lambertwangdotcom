@@ -1,3 +1,9 @@
-To deploy a test site:
+Lambert Wang Dot Com
+====================
 
-`jekyll serve`
+This is my website.
+
+```
+$ bundle install
+$ jekyll build
+```
