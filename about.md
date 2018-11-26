@@ -5,5 +5,5 @@ permalink: /about/
 ---
 
 Hello! This is my website. Feel free to look around.
-
-[jekyll-organization]: https://github.com/jekyll
+I currently live in the Evergreen State.
+I enjoy hiking and robotics.

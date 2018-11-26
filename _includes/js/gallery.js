@@ -28,7 +28,7 @@ function layoutImages() {
             let rowHeight = DESIRED_ROW_HEIGHT * containerWidth / rowWidth;
             for (let j = rowImageStart; j <= i; j++) {
                 let target = images[j];
-                let imageWidth = target.naturalWidth * rowHeight / target.naturalHeight - 4;
+                let imageWidth = target.naturalWidth * rowHeight / target.naturalHeight - IMAGE_MARGIN;
 
                 console.log('Setting image ' + j + ' height: ' + rowHeight + ' width: ' + imageWidth);
 

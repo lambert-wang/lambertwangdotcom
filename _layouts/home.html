@@ -14,30 +14,34 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        {% assign thumbnail_path = post.path | split: '/' | last | split: '.' | first | append: '/thumbnail' %}
-        {% for static_file in site.static_files %}
-          {% if static_file.path contains thumbnail_path %}
-            <a href="{{ post.url | relative_url }}">
+        <a href="{{ post.url | relative_url }}">
+          {% assign thumbnail_path = post.path | split: '/' | last | split: '.' | first | append: '/thumbnail' %}
+          {% for static_file in site.static_files %}
+            {% if static_file.path contains thumbnail_path %}
               <img class="post-thumbnail"
-                src="assets/{{ post.path | split: '/' | last | split: '.' | first }}/thumbnail.png"
+                src="assets/{{ post.path | split: '/' | last | split: '.' | first }}/thumbnail.jpg"
                 alt=""
                 />
-            </a>
-          {% endif %}
-        {% endfor %}
+            {% endif %}
+          {% endfor %}
 
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <div class="post-item">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
+            <h3 class="post-title">
+              {{ post.title | escape }}
+            </h3>
+
+          </div>
+        </a>
 
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          <div class="post-excerpt">
+            {{ post.excerpt }}
+          </div>
         {%- endif -%}
+
       </li>
       {%- endfor -%}
     </ul>

@@ -17,18 +17,24 @@ layout: default
   <div class="gallery-container">
     {% for image in site.static_files %}
       {% if image.path contains image_dir %}
-        <img class="gallery-image" src="{{ image.path }}" hidden=true />
+        {% unless image.path contains "thumbnail" %}
+          <img class="gallery-image" src="{{ image.path }}" hidden=true />
+        {% endunless %}
       {% endif %}
     {% endfor %}
 
-    <div class="gallery-expand">
-      <img class="gallery-expand-target" src="" onclick="clearTarget()"/>
+    <div class="gallery-expand" onclick="clearTarget()">
+      <img class="gallery-expand-target" src=""/>
     </div>
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 
   <script type="text/javascript">
+    var captions = {}
+    {% for caption in page.captions %}
+      captions["{{caption.name}}"] = "{{caption.text}}"
+    {% endfor %}
     {%- include js/gallery.js -%}
   </script>
 </article>

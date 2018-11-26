@@ -7,26 +7,52 @@ $header-size: 40px;
 
 .wrapper {
     position: relative;
-}
 
-.site-logo {
-    position: absolute;
-    width: $header-size;
-    left: 18px -$header-size;
-    top: 50%;
-    transform: translateY(-50%);
+    a {
+        display: inline-block;
 
-    border-radius: 6px;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .site-logo {
+        height: 42px;
+        margin: 6px;
+    
+        border-radius: 6px;
+    }
+    
+    .site-title {
+        float: none;
+        vertical-align: middle;
+        line-height: default;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 // Post list css
 
 .post-list {
     .post-thumbnail {
-        float: right;
-
         width: 144px;
         height: 81px;
+        margin-right: 12px
+    }
+
+    .post-item {
+        display: inline-block;
+    }
+
+    .post-title {
+        font-size: 24px;
+    }
+    
+    .post-excerpt {
+        font-size: 14px;
     }
 }
 
@@ -53,7 +79,6 @@ $header-size: 40px;
     height: 100%;
     left: 0;
     top: 0;
-    text-align: center;
     z-index: 10;
     background-image: radial-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .6));
 
