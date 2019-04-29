@@ -36,9 +36,6 @@ layout: default
 
   <script type="text/javascript">
     var captions = {}
-    {% for caption in page.captions %}
-      captions["{{caption.name}}"] = "{{caption.text}}"
-    {% endfor %}
     {%- include js/gallery.js -%}
   </script>
 </article>

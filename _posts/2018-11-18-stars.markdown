@@ -3,8 +3,9 @@ layout: gallery
 title:  "Trying to catch the Leonids"
 date:   2018-11-18 01:00:00 -0700
 categories: 
+description: We packed some snacks and drove out to Snoqualmie Point Park shortly before midnight.
+author: Lambert
 ---
-We packed some snacks and drove out to Snoqualmie Point Park shortly before midnight.
 <!--more-->
 John, Jonas, Yunjae, Ben and I stood together shoulder to shoulder as we braved the cold winds trying to catch a glimpse of a few bright streaks in the sky.
 We tried to catch a few shooting stars from the Leonid meteor shower. We didn't see too many shooting stars, but we did see a lot of normal stars.

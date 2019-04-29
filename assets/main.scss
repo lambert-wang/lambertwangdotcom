@@ -40,7 +40,8 @@ $header-size: 40px;
     .post-thumbnail {
         width: 144px;
         height: 81px;
-        margin-right: 12px
+        margin-right: 12px;
+        vertical-align: baseline;
     }
 
     .post-item {
@@ -53,6 +54,8 @@ $header-size: 40px;
     
     .post-excerpt {
         font-size: 14px;
+        display: inline-block;
+        color: black;
     }
 }
 

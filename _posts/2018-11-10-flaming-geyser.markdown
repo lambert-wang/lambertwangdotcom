@@ -7,6 +7,7 @@ captions:
     -   name: 1_geyser
         text: "The geyser"
 excerpt_separator: <!--more-->
+author: Lambert
 ---
 <!--more-->
 One chilly yet sunny Saturday morning, Ben, Jessica, and I drove down to the Flaming Geyser State Park for a nice walk.

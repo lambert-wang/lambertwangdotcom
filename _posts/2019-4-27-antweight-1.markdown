@@ -3,8 +3,9 @@ layout: gallery
 title:  "Foray into Combat Robotics"
 date:   2019-4-28 01:00:00 -0700
 categories: 
+description: My first attempt to get into combat robotics.
+author: Lambert
 ---
-My first attempt to get into combat robotics.
 <!--more-->
 If you've ever watched Robot Wars or the Battlebots TV show, then you have an idea of what to imagine when I say "I'm trying to build a battle bot." Sadly, the massive 200 pound death machines often shown on TV are a far cry from what I'm trying to build.
 
@@ -37,7 +38,7 @@ Despite ordering all of the parts, motors, and sheet metal, I never actually got
 
 ![](/assets/2019-4-27-antweight-1/5_printed.jpg){: .post-image}
 
-The closest I got was 3D printing out all of the pieces  in plastic for a test fit. I got it driving around while smashing its plastic printed disk against since graham crackers.
+The closest I got was 3D printing out all of the pieces  in plastic for a test fit. I got it driving around while smashing its plastic printed disk against some graham crackers.
 
 ![](/assets/2019-4-27-antweight-1/6_cracker.jpg){: .post-image}
 
