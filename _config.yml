@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lambertwang.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  lambertwang
+instagram_username: lambert.ww
 logo_path: assets/cat.png
 show_excerpts: true
 excerpt_separator: <!--more-->

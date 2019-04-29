@@ -1,5 +1,5 @@
 
-const DESIRED_ROW_HEIGHT = 200;
+const DESIRED_ROW_HEIGHT = 128;
 const IMAGE_MARGIN = 8;
 
 function layoutImages() {
