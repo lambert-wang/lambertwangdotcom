@@ -1,0 +1,17 @@
+---
+layout: gallery
+title:  "I got married!"
+date:   2021-01-07 01:00:00 -0700
+categories: 
+description: I got married!
+author: Lambert & Kaso
+---
+<!--more-->
+Here's some photos!
+
+![](/assets/2021-01-07-married/1.jpg){: .post-image}
+![](/assets/2021-01-07-married/2.jpg){: .post-image}
+![](/assets/2021-01-07-married/3.jpg){: .post-image}
+![](/assets/2021-01-07-married/4.jpg){: .post-image}
+![](/assets/2021-01-07-married/5.jpg){: .post-image}
+![](/assets/2021-01-07-married/6.jpg){: .post-image}
